@@ -4,8 +4,8 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     title: "示例分类1",
     sites: [
       {
-        title: "主标题",
-        url: "http://www.your-web-page.com/",
+        title: "图片类型检测",
+        url: "https://xue-gui.cn/casp/image",
         icon: "",
         color: "#0171CD",
       },
@@ -39,7 +39,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     title: "友情链接",
     sites: [
       {
-        title: "EsunR Blog",
+        title: "学贵",
         description: "EsunR 的博客",
         url: "https://www.esunr.xyz",
         icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",
@@ -67,7 +67,7 @@ const GLOBAL_CONFIG = {
   /**
    * 个人 Github 链接
    */
-  GITHUB_URL: "https://github.com/EsunR",
+  GITHUB_URL: "https://github.com/xuegui-cao",
   /**
    * 背景图片地址
    */
@@ -75,7 +75,7 @@ const GLOBAL_CONFIG = {
   /**
    * ICP 备案号，留空不显示
    */
-  ICP: "京ICP证000001号",
+  ICP: "鲁ICP备2024092662号-1",
   ICP_URL: "https://beian.miit.gov.cn/",
   FOOTER_INFO: true,
   /**
