@@ -88,8 +88,8 @@ onMounted(() => {
       <span class="drawer-handler__icon">
         <up-outlined />
       </span>
-      <span class="drawer-handler__text slide-up">Slide Up</span>
-      <span class="drawer-handler__text wheel-up">Wheel Up</span>
+      <span class="drawer-handler__text slide-up">上划查看更多</span>
+      <span class="drawer-handler__text wheel-up">点击查看更多</span>
     </div>
     <!-- Drawer -->
     <Drawer

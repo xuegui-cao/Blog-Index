@@ -1,48 +1,37 @@
 /** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
-    title: "示例分类1",
+    title: "我的项目",
     sites: [
       {
         title: "图片类型检测",
+        description: "用于身份证、营业执照、银行卡图片分类",
         url: "https://xue-gui.cn/casp/image",
         icon: "",
         color: "#0171CD",
       },
       {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
-        icon: "",
-      },
-      {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
+        title: "NPS",
+        description: "NPS管理台",
+        url: "https://xue-gui.cn/nps",
         icon: "",
       },
     ],
   },
   {
-    title: "示例分类2",
+    title: "内网访问",
   },
   {
-    title: "示例分类3",
-  },
-  {
-    title: "示例分类4",
-  },
-  {
-    title: "示例分类5",
+    title: "敬请期待",
   },
   {
     title: "友情链接",
     sites: [
       {
         title: "学贵",
-        description: "EsunR 的博客",
-        url: "https://www.esunr.xyz",
-        icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",
+        description: "还没搞好",
+        url: "https://",
+        icon: "/favicon.ico",
       },
     ],
   },
@@ -55,15 +44,15 @@ const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "EsunR-Blog",
+  BLOG_NAME: "学贵大人的博客",
   /**
    * 个人博客链接
    */
-  BLOG_URL: "https://blog.esunr.xyz",
+  BLOG_URL: "https://xue-gui.cn",
   /**
    * 指定中心 LOGO 图片地址
    */
-  LOGO_URL: null,
+  LOGO_URL: "/favicon.ico",
   /**
    * 个人 Github 链接
    */
@@ -71,7 +60,7 @@ const GLOBAL_CONFIG = {
   /**
    * 背景图片地址
    */
-  BACKGROUND_IMG_URL: "https://api.dujin.org/bing/1920.php",
+  BACKGROUND_IMG_URL: "https://t.alcy.cc/moez",
   /**
    * ICP 备案号，留空不显示
    */
@@ -83,9 +72,7 @@ const GLOBAL_CONFIG = {
    */
   SLOGANS: [
     "欢迎拜访",
-    "歡迎拜訪",
     "Welcome, my friend!",
-    "訪問へようこそ",
     "嗨，别来无恙",
     "不忘初心，一生浪漫",
     "最近还好吗？",
@@ -104,9 +91,9 @@ const GLOBAL_CONFIG = {
    * 网站 Title Keywords Description 的配置，用于 SEO
    */
   TKD: {
-    title: "My Blog Index",
-    keywords: "Blog, Index, Index Page",
-    description: "This is my personal blog index page.",
+    title: "学贵主页",
+    keywords: "null",
+    description: "null",
   },
 };
 
