@@ -8,7 +8,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         description: "用于身份证、营业执照、银行卡图片分类",
         url: "https://xue-gui.cn/casp/image",
         icon: "",
-        color: "#0171CD",
+        color: "#cd5d01",
       },
       {
         title: "NPS",
@@ -16,10 +16,37 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         url: "https://xue-gui.cn/nps",
         icon: "",
       },
+      {
+        title: "Jenkins",
+        description: "Jenkins",
+        url: "https://xue-gui.cn/jenkins/",
+        icon: "",
+      },
     ],
   },
   {
     title: "内网访问",
+    sites: [
+      {
+        title: "TR3000路由器",
+        description: "TR3000路由器管理台",
+        url: "http://192.168.10.1/cgi-bin/luci/",
+        icon: "",
+        color: "#0171CD",
+      },
+      {
+        title: "让弹幕飞",
+        description: "各直播平台弹幕监听平台",
+        url: "http://ser4.xue-gui.cn:30000/user/login",
+        icon: "",
+      },
+      {
+        title: "NACOS",
+        description: "NACOS",
+        url: "http://ser4.xue-gui.cn:8848/nacos/#/configurationManagement?dataId=&group=&appName=&namespace=dev&pageSize=&pageNo=&namespaceShowName=dev",
+        icon: "",
+      },
+    ],
   },
   {
     title: "敬请期待",
